@@ -9,6 +9,7 @@ import com.alibaba.sdk.android.callback.InitResultCallback;
 import com.alibaba.sdk.android.media.MediaService;
 import com.alibaba.wxlib.util.SysUtil;
 import com.lpf.hitalkyw.crash.CrashHandler;
+import com.lpf.hitalkyw.helper.InitHelper;
 
 /**
  * Created by sky90 on 2017/2/9.
@@ -38,12 +39,12 @@ public class MyApplication extends Application {
         crashHandler.init(getApplicationContext());
 
 
-//        //初始化云旺SDK
-//        InitHelper.initYWSDK(this);
-//
-//        //初始化反馈功能(未使用反馈功能的用户无需调用该初始化)
-//
-//        InitHelper.initFeedBack(this);
+        //初始化云旺SDK
+        InitHelper.initYWSDK(this);
+
+        //初始化反馈功能(未使用反馈功能的用户无需调用该初始化)
+
+        InitHelper.initFeedBack(this);
 
         //初始化多媒体SDK，小视频和阅后即焚功能需要使用多媒体SDK
         AlibabaSDK.asyncInit(this, new InitResultCallback() {
