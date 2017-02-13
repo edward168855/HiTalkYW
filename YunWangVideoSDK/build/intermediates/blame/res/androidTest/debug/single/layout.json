@@ -8,12 +8,12 @@
         "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\taorecorder_dialog_layout.xml"
     },
     {
-        "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\taorecorder_activity_recorder.xml",
-        "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\taorecorder_activity_recorder.xml"
-    },
-    {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\aliwx_sv_select_dialog_item.xml",
         "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\aliwx_sv_select_dialog_item.xml"
+    },
+    {
+        "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\taorecorder_activity_recorder.xml",
+        "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\layout\\taorecorder_activity_recorder.xml"
     },
     {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\aliwx_sv_select_dialog_multichoice.xml",

@@ -100,12 +100,12 @@
         "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_unread_goto_chat_list_bottom_bg.png"
     },
     {
-        "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_self_help_menu_icon.png",
-        "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_self_help_menu_icon.png"
-    },
-    {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_chatfrom_play_r02.png",
         "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_chatfrom_play_r02.png"
+    },
+    {
+        "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_self_help_menu_icon.png",
+        "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_self_help_menu_icon.png"
     },
     {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_gray_button_bg_p.9.png",
@@ -1180,12 +1180,12 @@
         "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_reply_bar_expand_normal.png"
     },
     {
-        "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_reply_bar_close_normal.png",
-        "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_reply_bar_close_normal.png"
-    },
-    {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_recordbutton_normal_bg.9.png",
         "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_recordbutton_normal_bg.9.png"
+    },
+    {
+        "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_reply_bar_close_normal.png",
+        "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\aliwx_reply_bar_close_normal.png"
     },
     {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\aliwx_reply_bar_text_pressed.png",

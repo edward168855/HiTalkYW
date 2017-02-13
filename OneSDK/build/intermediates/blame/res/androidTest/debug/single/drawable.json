@@ -416,12 +416,12 @@
         "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\aliwx_wx_column_bg.xml"
     },
     {
-        "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\aliwx_column_first_grade_color.xml",
-        "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\aliwx_column_first_grade_color.xml"
-    },
-    {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\aliwx_record_btn_green_bg.xml",
         "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\aliwx_record_btn_green_bg.xml"
+    },
+    {
+        "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\aliwx_column_first_grade_color.xml",
+        "source": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\bundles\\debug\\res\\drawable\\aliwx_column_first_grade_color.xml"
     },
     {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\OneSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\com_taobao_tae_sdk_web_view_activity_sendfeedback_rounded_edittext.xml",
