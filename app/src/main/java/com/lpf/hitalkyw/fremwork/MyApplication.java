@@ -10,17 +10,19 @@ import com.alibaba.sdk.android.media.MediaService;
 import com.alibaba.wxlib.util.SysUtil;
 import com.lpf.hitalkyw.crash.CrashHandler;
 import com.lpf.hitalkyw.helper.InitHelper;
+import com.lpf.hitalkyw.utils.MyLogUtil;
 
 /**
  * Created by sky90 on 2017/2/9.
  */
 public class MyApplication extends Application {
 
-    private static final String TAG = "DemoApplication";
-    public static final String NAMESPACE = "openimdemo";
+    private static final String TAG = "MyApplication";
+    public static final String NAMESPACE = "myimdemo";
     //云旺OpenIM的DEMO用到的Application上下文实例
     private static Context sContext;
-    public static Context getContext(){
+
+    public static Context getContext() {
         return sContext;
     }
 
@@ -29,7 +31,7 @@ public class MyApplication extends Application {
         super.onCreate();
 
         //todo Application.onCreate中，首先执行这部分代码，以下代码固定在此处，不要改动，这里return是为了退出Application.onCreate！！！
-        if(mustRunFirstInsideApplicationOnCreate()){
+        if (mustRunFirstInsideApplicationOnCreate()) {
             //todo 如果在":TCMSSevice"进程中，无需进行openIM和app业务的初始化，以节省内存
             return;
         }
@@ -45,12 +47,13 @@ public class MyApplication extends Application {
         //初始化反馈功能(未使用反馈功能的用户无需调用该初始化)
 
         InitHelper.initFeedBack(this);
-
+        MyLogUtil.d(TAG, "onCreate()");
         //初始化多媒体SDK，小视频和阅后即焚功能需要使用多媒体SDK
         AlibabaSDK.asyncInit(this, new InitResultCallback() {
             @Override
             public void onSuccess() {
-                Log.e(TAG, "-----initTaeSDK----onSuccess()-------" );
+                Log.e(TAG, "-----initTaeSDK----onSuccess()-------");
+                MyLogUtil.d(TAG, "-----initTaeSDK----onSuccess()-------");
                 MediaService mediaService = AlibabaSDK.getService(MediaService.class);
                 mediaService.enableHttpDNS(); //果用户为了避免域名劫持，可以启用HttpDNS
                 mediaService.enableLog(); //在调试时，可以打印日志。正式上线前可以关闭
@@ -59,15 +62,13 @@ public class MyApplication extends Application {
             @Override
             public void onFailure(int code, String msg) {
                 Log.e(TAG, "-------onFailure----msg:" + msg + "  code:" + code);
+                MyLogUtil.d(TAG, "-------onFailure----msg:" + msg + "  code:" + code);
             }
         });
 
-
+        MyLogUtil.d(TAG, "onCreate()---> end");
 
     }
-
-
-
 
 
     private boolean mustRunFirstInsideApplicationOnCreate() {

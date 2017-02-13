@@ -4,12 +4,12 @@
         "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\taorecorder_push_right_in.xml"
     },
     {
-        "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\taorecorder_scale_reverse.xml",
-        "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\taorecorder_scale_reverse.xml"
-    },
-    {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\taorecorder_arrow_notice.xml",
         "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\taorecorder_arrow_notice.xml"
+    },
+    {
+        "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\taorecorder_scale_reverse.xml",
+        "source": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\bundles\\debug\\res\\anim\\taorecorder_scale_reverse.xml"
     },
     {
         "merged": "D:\\2017\\02\\09\\HiTalkYW\\YunWangVideoSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\taorecorder_mintime_notice.xml",
